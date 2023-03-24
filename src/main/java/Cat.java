@@ -10,4 +10,9 @@ public class Cat extends Animal {
   public void sleep() {
     System.out.println("Cat sleeping");
   }
+
+  @Override
+  public void sing() {
+    System.out.println("Meow, meow");
+  }
 }
